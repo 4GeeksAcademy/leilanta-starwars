@@ -1,0 +1,29 @@
+div{
+    background: rgb(0,26,46);
+    background: linear-gradient(184deg, rgba(0,26,46,1) 0%, rgba(0,146,255,1) 100%);
+}
+
+.navbarlogo {
+    height: 10%;
+    width: 10%;
+}
+
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+    background-color: #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: start;
+}
