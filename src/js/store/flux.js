@@ -36,10 +36,15 @@ const getState = ({ getStore, getActions, setStore }) => {
 				});
 
 				//reset the global store
-				setStore({ demo: demo });
+				//setStore({ demo: demo });
+			}
+
+			// function getCharacters (done) => {
+			// 	const results = fetc ("https://swapi.dev/api/people/");
+
 			}
 		}
 	};
-};
+
 
 export default getState;

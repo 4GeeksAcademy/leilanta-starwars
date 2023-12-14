@@ -1,11 +1,13 @@
-div{
-    background: rgb(0,26,46);
-    background: linear-gradient(184deg, rgba(0,26,46,1) 0%, rgba(0,146,255,1) 100%);
+.h-100{
+    background: rgb(26,56,82);
+    background: linear-gradient(9deg, rgba(26,56,82,1) 0%, rgba(53,118,146,1) 90%);
+    background-image: url("https://images5.alphacoders.com/293/293987.jpg");
+    background-size: cover;
 }
 
-.navbarlogo {
-    height: 10%;
-    width: 10%;
+.logo {
+    height: 15%;
+    width: 15%;
 }
 
 .carousel-container {
@@ -18,12 +20,19 @@ div{
 }
 
 .card {
-    flex: 0 0 auto;
-    width: 300px;
-    height: 200px;
-    margin-right: 10px;
-    background-color: #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    scroll-snap-align: start;
+background-color: #000;
+}
+
+.card-title {
+    background-color: #ffc107;
+}
+
+h1 {
+    color: #ffff;
+    font-size: 50pt;
+}
+
+a {
+
+    color: #ffc107;
 }
