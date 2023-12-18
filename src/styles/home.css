@@ -16,23 +16,66 @@
     scroll-snap-type: x mandatory;
     scrollbar-width: thin;
     white-space: nowrap;
-    overflow-x: hidden;
 }
 
 .card {
-background-color: #000;
-}
-
-.card-title {
     background-color: #ffc107;
+    overflow: hidden;
+    z-index: 1;
+    grid-auto-flow: column;
+    box-shadow: inset;
+    height: 150px;
+    width: auto;
+    border-radius: 1rem;
 }
 
-h1 {
-    color: #ffff;
-    font-size: 50pt;
+
+h5 {
+    color: #ffc107;
+    font-size: 100%;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 101;
+    text-decoration: overline;
+
 }
 
-a {
+h3 {
+    font-size: 10pt;
+    font-weight: 900;
+    margin: auto;
+
+
+}
+
+
+
+nav-link {
 
     color: #ffc107;
+}
+
+.card-img-top:hover {
+    transform: scale(1.3);
+    overflow: hidden;
+    z-index: 100;
+    background-color: #ffc107;
+    opacity: 0.8;
+ 
+  }
+
+  .card-img-top{
+
+    overflow: hidden;
+    z-index: 100;
+
+  }
+
+  .section-logo {
+    height: 3%;
+    width: 3%;
+    margin: -50%;
 }
