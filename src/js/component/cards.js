@@ -21,10 +21,9 @@ export const Cards = (descrip) => {
 				{
 					descrip.types == "people" }
 
-				<div className="container_button d-flex justify-content-between mt-5 gap-3">
+			<div class="btn-group " role="group" aria-label="Basic button group">
 					<Link to={`/demo/${descrip.types}/${descrip.item.uid}`} className="btn btn-outline-danger d-flex mr-5">+</Link>
-					<button href="#" className="btn btn-outline-warning m-auto align-items-center fas fa-heart text-danger"
-
+					<button href="#" className="btn btn-outline-warning m-auto align-items-right fas fa-heart text-danger mr-5"
 						onClick={() => { actions.getFavorites(descrip.item.properties.name) }}></button>
 				</div>
 			</div>

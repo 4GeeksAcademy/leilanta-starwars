@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ButtonFavourites } from "./favourites";
+import { ButtonFavourites } from "./buttonfavourites";
 import "../../styles/home.css";
 
 export const Navbar = () => {
@@ -9,7 +9,7 @@ export const Navbar = () => {
 		<div id="mainNavigation">
 		<nav role="navigation">
 		  <div className="py-3 text-center border-bottom">
-		  <Link to="/"/>
+		  <Link to= "/home"/>
 			<img src="https://www.pngall.com/wp-content/uploads/13/Star-Wars-Logo-Transparent.png" alt="" className=" logo invert"/>
 			
 		  </div>
